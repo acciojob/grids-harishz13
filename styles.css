@@ -1,61 +1,34 @@
 
-/* Your CSS Code here. */
-.container{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    row-gap: 6px;
-    border: 6px solid rgb(9, 226, 9);
-    height: 600px;
-    width: 660px;
-    padding: 5px;
+.bg-pink{
+    background: #ee82ef;
 }
-.color_1{
-    background-color: rgb(22, 160, 153);
-    
+.bg-light-blue{
+    background: #3fe0d0;
 }
-.color_2{
-    background-color: rgb(211, 186, 211);
-    /* border: 1px dotted black; */
+
+.bg-green{
+    background: #9acd32;
 }
-.color_3{
-    background-color: rgb(66, 17, 17);
-    /* border: 1px dotted black; */
+
+.bg-orange{
+    background: #fe6347;
 }
-.color_4{
-    background-color: rgb(238, 109, 109);
-    /* border: 1px dotted black; */
+
+.bg-teal{
+    background: teal;
 }
-.color_5{
-    background-color: rgb(116, 222, 248);
-    /* border: 1px dotted black; */
+.bg-light-pink{
+    background: #d7bfd7;
 }
-.color_6{
-    background-color: violet;
-    /* border: 1px dotted black; */
+.row{
+    border: 5px solid rgb(255, 188, 188);
+    height: 250px;
 }
-.color_7{
-    background-color: greenyellow;
-    /* border: 1px dotted black; */
+.row > * {
+    border: 3px dotted black;
 }
-#box1,#box3,#box8,#box11,#box14,#box16{
-    border-left: dotted 2px black;
-    border-top: dotted 2px black;
-    border-bottom: dotted 2px black;
-}
-#box2{
-    border-right: dotted 2px black;
-    border-top: dotted 2px black;
-    border-bottom: dotted 2px black;
-}
-#box4,#box5{
-    border-top: dotted 2px black;
-    border-bottom: dotted 2px black;
-}
-#box6,#box9,#box12,#box15,#box17{
-    border-right: dotted 2px black;
-    border-top: dotted 2px black;
-    border-bottom: dotted 2px black;
-}
-#box7,#box13,#box10,#box18{
-    border: dotted 2px black;
+div.container-fluid{
+    width: 750px;
+    border: 5px solid rgb(4, 255, 4);
+    background-color: black;
 }
