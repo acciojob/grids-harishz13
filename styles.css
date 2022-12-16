@@ -1,2 +1,61 @@
 
 /* Your CSS Code here. */
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    row-gap: 6px;
+    border: 6px solid rgb(9, 226, 9);
+    height: 600px;
+    width: 660px;
+    padding: 5px;
+}
+.color_1{
+    background-color: rgb(22, 160, 153);
+    
+}
+.color_2{
+    background-color: rgb(211, 186, 211);
+    /* border: 1px dotted black; */
+}
+.color_3{
+    background-color: rgb(66, 17, 17);
+    /* border: 1px dotted black; */
+}
+.color_4{
+    background-color: rgb(238, 109, 109);
+    /* border: 1px dotted black; */
+}
+.color_5{
+    background-color: rgb(116, 222, 248);
+    /* border: 1px dotted black; */
+}
+.color_6{
+    background-color: violet;
+    /* border: 1px dotted black; */
+}
+.color_7{
+    background-color: greenyellow;
+    /* border: 1px dotted black; */
+}
+#box1,#box3,#box8,#box11,#box14,#box16{
+    border-left: dotted 2px black;
+    border-top: dotted 2px black;
+    border-bottom: dotted 2px black;
+}
+#box2{
+    border-right: dotted 2px black;
+    border-top: dotted 2px black;
+    border-bottom: dotted 2px black;
+}
+#box4,#box5{
+    border-top: dotted 2px black;
+    border-bottom: dotted 2px black;
+}
+#box6,#box9,#box12,#box15,#box17{
+    border-right: dotted 2px black;
+    border-top: dotted 2px black;
+    border-bottom: dotted 2px black;
+}
+#box7,#box13,#box10,#box18{
+    border: dotted 2px black;
+}
